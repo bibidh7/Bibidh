@@ -1,32 +1,229 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container-fluid{
+  padding: 7% 15%;
 }
 
 .App-link {
   color: #61dafb;
 }
+
+#navigationbar {
+position: relative;  
+font-family:'roboto';
+background-color: #ff4c68;
+opacity: 0;
+animation:1s FadeIn 0.5s forwards;
+}
+
+.header{
+position: obsolete;
+min-height: 20vh;
+
+}
+.brandName{
+font-size:1.5rem !important;
+color: white !important;
+}
+
+.nav-link{
+  color: white !important;
+  opacity:0.8;
+}
+.nav-link:hover{
+  opacity:1;
+  color:inherit;
+  animation:0.1s zoom 0.2s forwards
+  
+}
+@keyframes zoom {
+  from {
+    transform: scale(1.1);
+  }
+  to{
+    transform: scale(1.2);
+   }
+
+}
+#intro{
+  position: relative;
+  background-color: #ff4c68;
+  opacity: 0;
+  animation:1s FadeIn 0.5s forwards;
+  
+}
+#intro p{
+  font-family: 'Roboto',serif;
+}
+p .title{
+  font-family:Tangerine, serif;
+  font-weight: 700;
+}
+/* 
+#intro{
+  position: relative;
+  opacity: 0;
+  animation:1s FadeIn 0.5s forwards;
+  
+} */
+.w-100{
+  height:60vh !important;
+  overflow: hidden;
+}
+
+#feature{
+  text-align: center;
+  opacity: 0;
+  padding:50px 20px;
+  animation:1s FadeIn 0.5s forwards;
+}
+
+article{
+  margin:0 auto;
+  text-align: center;
+  max-width: 480px;
+}
+article p{
+  line-height: 2em;
+}
+
+.article-feature{
+  
+  max-width: 580px !important;
+
+}
+.article-feature h2{
+  text-align: center;
+}
+.skills-img{
+  position: relative;
+ 
+}
+.article-feature img{
+  width: 100%;
+}
+
+hr{
+  border-color: gainsboro;
+  border-style: none;
+  border-top-style: dotted !important;
+  border-width: 6px;
+  width: 5%;
+  margin: 50px auto;
+  }
+
+  .skills{
+    text-align: left !important;
+  }
+
+  .hobbies{
+    text-align: right !important;
+  }
+@media only screen and (max-width:600px){
+  .skills-img{
+    width:50%;
+    display:inline-block;
+    padding-bottom: 10px;
+
+
+  }
+  .skills, .hobbies{
+    text-align: center !important;
+  }
+  #intro img{
+    width:60%;
+    height: auto;
+    border-radius: 50%;
+  }
+  #intro h1{
+    font-size:3rem;
+  }
+
+  h2{
+    font-size:1.5rem;
+  }
+  h4{
+    font-size:1rem;
+  }
+  hr{
+    margin:20px auto;
+  }
+  #feature{
+    padding:10px 10px;
+  }
+  #feature .py-3{
+    padding-bottom:0 !important;
+  }
+
+}
+
+iframe{
+  border: none;
+}
+
+#contact a{
+  text-decoration: none
+}
+
+
+Button a{
+  text-decoration: none;
+  color:Black;
+}
+  
+Button a:hover{
+  color:#ff4c68;
+}
+  
+
+
+
+
+
+.colored-section{
+  position: relative;
+  background-color: #ff4c68;
+  opacity: 0;
+  animation:1s FadeIn 0.5s forwards;
+}
+
+
+.icon-color{
+  color: #ff4c68;
+}
+.icon-color:hover{
+color:inherit;
+}
+.form-style{
+  width:30%;;
+}
+
+#Footer{
+  width: 100%;
+  height: 40vh;
+  opacity: 0;
+  animation:1s FadeIn 0.5s forwards;
+}
+@keyframes FadeIn {
+  100%{ opacity:1;}
+}
+
+.MuiTypography-h4:hover{
+  opacity: 0.7;
+}
+/* .carousel.slide {
+  width: 100%;
+  height: 100%;
+
+} */
+
+.carousel img{
+  max-width: 100%;
+  
+}
+
+
 
 @keyframes App-logo-spin {
   from {
