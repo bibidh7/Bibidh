@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/github.io/Bibidh.git/static/css/main.2709af23.chunk.css",
+    "main.js": "/github.io/Bibidh.git/static/js/main.74ac6f84.chunk.js",
+    "main.js.map": "/github.io/Bibidh.git/static/js/main.74ac6f84.chunk.js.map",
+    "runtime-main.js": "/github.io/Bibidh.git/static/js/runtime-main.95f52e1e.js",
+    "runtime-main.js.map": "/github.io/Bibidh.git/static/js/runtime-main.95f52e1e.js.map",
+    "static/js/2.a2646922.chunk.js": "/github.io/Bibidh.git/static/js/2.a2646922.chunk.js",
+    "static/js/2.a2646922.chunk.js.map": "/github.io/Bibidh.git/static/js/2.a2646922.chunk.js.map",
+    "index.html": "/github.io/Bibidh.git/index.html",
+    "precache-manifest.31cf4998f42547579318bede4b6c5347.js": "/github.io/Bibidh.git/precache-manifest.31cf4998f42547579318bede4b6c5347.js",
+    "service-worker.js": "/github.io/Bibidh.git/service-worker.js",
+    "static/css/main.2709af23.chunk.css.map": "/github.io/Bibidh.git/static/css/main.2709af23.chunk.css.map",
+    "static/js/2.a2646922.chunk.js.LICENSE.txt": "/github.io/Bibidh.git/static/js/2.a2646922.chunk.js.LICENSE.txt",
+    "static/media/BibidhShrestha.docx": "/github.io/Bibidh.git/static/media/BibidhShrestha.89d07878.docx",
+    "static/media/avatar.JPG": "/github.io/Bibidh.git/static/media/avatar.593c8826.JPG",
+    "static/media/logo.svg": "/github.io/Bibidh.git/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95f52e1e.js",
+    "static/js/2.a2646922.chunk.js",
+    "static/css/main.2709af23.chunk.css",
+    "static/js/main.74ac6f84.chunk.js"
+  ]
+}
